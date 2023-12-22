@@ -1,0 +1,28 @@
+Business Context
+
+E-news Express, an online news portal, aims to expand its business by acquiring new subscribers. 
+Every visitor to the website taking certain actions based on their interest, the company plans to analyze these actions
+to understand user interests and determine how to drive better engagement. The executives at the E-news Express have the
+opinion that there is a decline in new monthly subscribers compared to the last year because the current webpage 
+does not have a good design.
+
+Objective
+
+The design teams of the company created a new landing page has a new outline has more relevant content shown compared to the old page.
+The Data Science team has conducted an experiment by selecting 100 users and dividing them into 2 groups: The landing page goes to the control group
+and the new landing page goes to the treatment group. Being a data scientist, you are supposed answer the following questions:
+
+1. Do the users spend more time on the new landing page than on the existing landing page?
+2. Is the conversion rate (the proportion of users who visit the landing page and get converted) for the new page
+greater than the conversion rate for the old page?
+3. Does the converted status depend on the preferred language?
+4. Is the time spent on the new page the same for the different language users?
+
+
+Data Variables:
+user_id
+group
+landing_page
+time_spent_on_the_page
+converted
+language_preferred
